@@ -1,0 +1,41 @@
+﻿<Window x:Class="WpfDemoApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDemoApp"
+        mc:Ignorable="d"
+        Title="MainWindow" WindowState="Maximized" >
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <StackPanel Orientation="Horizontal" Grid.Row="0" Margin="10,10,10,10">
+            <TextBox Name="txtUrl" HorizontalAlignment="Left" Width="500" Height="30" Margin="10,0,10,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top"  FontSize="16" ></TextBox>
+            <Button Content="Load" Name="btnLoad" HorizontalAlignment="Left"  VerticalAlignment="Top" Width="75" Click="btnLoad_Click" FontSize="20"/>
+        </StackPanel>
+        <DockPanel Grid.Row="1">
+            <Grid>
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="*"/>
+                    <ColumnDefinition Width="Auto"/>
+                </Grid.ColumnDefinitions>
+                <WebBrowser x:Name="xwb" HorizontalAlignment="Left"  Margin="50,50,50,50" VerticalAlignment="Top" Grid.Column="0" />
+                <Grid Grid.Column="1" Margin="50,50,50,50">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Button Grid.Row="0" Content="Take Full Page Screenshot" Name="btnScreenshot" Width="200" HorizontalAlignment="Left"  VerticalAlignment="Top"  Click="btnScreenshot_Click"  FontSize="20" />
+                    <Label Content="Save Location" FontSize="20" Grid.Row="1" Margin="0,20,0,20"></Label>
+                    <TextBox Grid.Row="2" Height="30" Name="txtSaveLocation"></TextBox>
+                </Grid>
+            </Grid>
+            
+        </DockPanel>
+
+    </Grid>
+</Window>

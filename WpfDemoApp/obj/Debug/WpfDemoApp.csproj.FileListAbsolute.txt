@@ -1,0 +1,14 @@
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\bin\Debug\WpfDemoApp.exe.config
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\bin\Debug\WpfDemoApp.exe
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\bin\Debug\WpfDemoApp.pdb
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\obj\Debug\WpfDemoApp.csprojResolveAssemblyReference.cache
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\obj\Debug\MainWindow.g.cs
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\obj\Debug\App.g.cs
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\obj\Debug\WpfDemoApp_MarkupCompile.cache
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\obj\Debug\WpfDemoApp_MarkupCompile.lref
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\obj\Debug\MainWindow.baml
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\obj\Debug\WpfDemoApp.g.resources
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\obj\Debug\WpfDemoApp.Properties.Resources.resources
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\obj\Debug\WpfDemoApp.csproj.GenerateResource.Cache
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\obj\Debug\WpfDemoApp.exe
+D:\Project\Upwork\DemoWPF\ScreenShotDemo\WpfDemoApp\obj\Debug\WpfDemoApp.pdb
